@@ -1,3 +1,15 @@
+body{
+  @media only screen and (max-width: 600px)
+  
+
+    
+
+  
+
+{}
+    
+  
+
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
@@ -26,11 +38,16 @@
   opacity: 0.7;
 }
 fieldset{
+  
   background-color: orange;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
+
+
+
+  
+
 
 header {
   background-color: skyblue;
@@ -47,3 +64,5 @@ h1{
   background-color: white;
 }
 
+
+}}
