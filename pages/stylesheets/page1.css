@@ -1,0 +1,49 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color: white;
+}
+
+
+
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+fieldset{
+  background-color: orange;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+header {
+  background-color: skyblue;
+  font-size: xx-large;
+  text-align: center;
+
+
+}
+
+body{
+  background-color: skyblue;
+}
+h1{
+  background-color: white;
+}
+
