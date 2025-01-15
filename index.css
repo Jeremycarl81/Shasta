@@ -1,8 +1,14 @@
+header {
+  font-size: xx-large;
+  text-align: center;
+  background-color: skyblue;
+}
 body{
+  background-color: skyblue;
   @media only screen and (max-width: 600px)
   { display: flex;
     flex-direction: column;
-   justify-content: space-between;
+  
   }
 
 
@@ -28,7 +34,7 @@ body{
 
 .card button {
   border: none;
-  outline: 0;
+  outline: 15px;
   padding: 12px;
   color: white;
   background-color: #000;
@@ -50,6 +56,8 @@ fieldset{
   @media only screen and (max-width: 600px)
   { display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
+    padding: 60px;
   }
 
 
@@ -57,13 +65,9 @@ fieldset{
   
 
 
-header {
-  background-color: skyblue;
-  font-size: xx-large;
-  text-align: center;
 
 
-}
+
 
 body{
   background-color: skyblue;
